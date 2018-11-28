@@ -15,5 +15,5 @@ xhttp.onreadystatechange = function(){
     }
 };
 
-xhttp.open("GET", "http://victoraliaga.pythonanywhere.com/mascotas/?format=json", true);
+xhttp.open("GET", "https://victoraliaga.pythonanywhere.com/mascotas/?format=json", true);
 xhttp.send();
