@@ -27,8 +27,6 @@ var filesToCache = [
     "/img/icono-125x125.png",
     "/img/icono-152x152.png",
     "/img/icono-192x192.png",
-
-  
 ];
 
 self.addEventListener( 'install', function( e ) {
