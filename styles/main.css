@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@import url(menu.css);
+@import url(banner.css);
+@import url(perritos.css);
+@import url(slider.css);
+@import url(registrar.css);
+@import url(registrocompleto.css);
+@import url(perritodetalle.css);
+@import url(login.css);
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cuerpo Pagina */
+body
+{
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* Header */
+header
+{
+    width: 100%;
+    height: 50px;
+    background: #12511D;
+    color: #fff;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* Contenedor En General */
+.contenedor
+{
+    width: 98%;
+    margin: auto;
+}
+
+/* Titulo Pagina */
+h1
+{
+    
+    float: left;
+}
+
+/* Contenedor del Header */
+
+header .contenedor
+{
+    display: table;
+}
+
+/* Seccion en General */
+section
+{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* Seccion Introduccion que estan en el Main */
+#Introduccion
+{
+    text-align: center;
+}
+
+/* Seccion Galeria que estan en el mascotas.html */
+#GaleriaMascotas
+{
+    text-align: center;
+}
+
+/* El Contenedor que esta dentro del Footer */
+footer .contenedor
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+    background: #12511D;
+}
+
+/*Parrafo que esta en el Footer donde esta el Copyright y el Año */
+.copyright
+{
+    font-size: 20px;
+    color: #fff;
+}
+
+/*DIV donde estan los iconos de las redes sociales en el Footer */
+.redesociales
+{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+/* Iconos de las Redes Sociales que estan en el Footer */
+.redesociales a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ------------------------------------ RESPOSIVE -------------------------------------- */
+
+/* -------------------------------------- 768PX ----------------------------------------*/
+
+@media (min-width:768px)
+{
+    .redesociales
+    {
+        width: auto;
+    }
+    
+    footer .contenedor
+    {
+        justify-content: space-between;
+    }
+    
+    
+}
+
+/* -------------------------------------- 1024PX ----------------------------------------*/
+
+@media (min-width:1024px)
+{
+    .contenedor
+    {
+        width: 1000px;
+    }
+}
+

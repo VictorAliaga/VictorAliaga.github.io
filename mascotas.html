@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1,minimum=scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="MisPerris Pagina Oficial de Adopcion de Perritos">
+    <title>Inicio | MisPerris</title>
+    <link rel="stylesheet" href="styles/banner.css">
+    <link rel="stylesheet" href="styles/fontello.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/perritodetalle.css">
+    <link rel="stylesheet" href="styles/perritos.css">
+    <link rel="stylesheet" href="styles/registrar.css">
+    <link rel="stylesheet" href="styles/registrocompleto.css">
+    <link rel="shortcut icon" href="img/favicon.png">
+    
+</head>
+<body>
+
+    <header>
+        <div class="contenedor">
+            <h1>MisPerris</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+
+            <nav class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="mascotas.html">Mascotas</a>
+                    <a href="registro.html">Registro</a>
+                    <a href="login.html">Log In</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+        <div id="contenedor-slider">
+            
+            <div id="slider">
+                    
+                <section>    
+                    
+                    <img src="img/banner.jpg" alt="banner">
+                        
+                </section>
+                
+            </div>
+        </div>
+        
+        <section id="Introduccion">
+            <h2>Nuestros Perros</h2>
+            <div class="contenedor">
+                    <select id="MascotasFilter" class="MascotasFilter">
+                            <option value="Disponible">Disponible</option>
+                            <option value="Adoptado">Adoptado</option>
+                            <option value="Rescatado">Rescatado</option>
+                    </select>
+            </div>        
+        </section>
+        
+        <section id="perritos">
+            <div class="contenedor">
+                <div id="MascotasContenedor" class="MascotasContenedor">
+                            
+                </div>    
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <p class="copyright">MisPerris &copy; 2018</p>
+            <div class="redesociales">
+                <a class="icon-facebook" href="#"></a>
+                <a class="icon-twitter" href="#"></a>
+                <a class="icon-instagram" href="#"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="app/app.js"></script>
+    <script src="app/parse.js"></script>
+</body>    
+</html>

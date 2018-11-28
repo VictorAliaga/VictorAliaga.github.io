@@ -1,0 +1,89 @@
+/* Ocultamos el checkbox */
+#menu-bar
+{
+   display: none;
+}
+
+/* Icono Menu 3 Barras */
+header label
+{
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+/* Menu desplegable */
+.menu 
+{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #12511D;
+    opacity: 0.9;
+    transition: all 0.5s;
+    transform: translateY(100%);
+}
+
+/* Enlaces del Menu Header */
+.menu a
+{
+    display: block;
+    color: #fff;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid 0.3;
+    border-color: #fff;
+    
+}
+
+/* Cuando el Puntero del Mouse este en los link del Menu*/
+.menu a:hover
+{
+    background: #56AF78;
+    opacity: 0.3;
+}
+
+/* El traslado del Menu Responsive, como quedaria en la pantalla "0" Pantalla Completa*/
+#menu-bar:checked ~ .menu
+{
+    transform: translateX(0%);
+}
+
+/* ------------------------------------ RESPOSIVE -------------------------------------- */
+
+/* -------------------------------------- 1024PX ----------------------------------------*/
+
+@media (min-width: 1024px) 
+{
+    /* Menu Desplegable */
+    .menu
+    {
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+    }
+    
+    /* Enlaces del Menu Header */
+    .menu a
+    {
+        border: none;
+    }
+    
+    /* Icono Menu 3 Barras LO ELIMINO */
+    header label
+    {
+        display: none;
+    }
+
+    
+    
+}
+
+

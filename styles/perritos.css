@@ -1,0 +1,51 @@
+/* Contenedor de la Seccion Perritos */ 
+#perritos .contenedor
+{
+    display: flex;
+    justify-content: center;
+    /* Si los elementos no caben con este codigo bajaran*/
+    flex-wrap: wrap;
+}
+
+/* Los Articulos que estan dentro de Perritos */
+#perritos .contenedor .MascotasContenedor article
+{
+    margin: 50px;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+    justify-content: center;
+    
+}
+
+/*Imagenes que estan en la seccion perritos */
+#perritos img
+{
+
+    width: 250px;
+    height: 250px;
+    display:block;
+    margin:auto;
+    
+}
+
+/* Texto que esta en la seccion Perritos */
+#perritos h2
+{
+    text-align: center;
+    text-decoration: none;
+}
+
+#perritos p
+{
+    width: 250px;
+    white-space: pre-line;
+    
+}
+
+.exitoso
+{
+    margin: 60px;
+}
+
+
