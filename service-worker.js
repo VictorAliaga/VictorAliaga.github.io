@@ -1,4 +1,4 @@
-var cacheName = "misperris";
+var cacheName = "misperris-version1";
 var filesToCache = [
     "/",
     "/index.html",
